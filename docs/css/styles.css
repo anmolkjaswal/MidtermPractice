@@ -39,14 +39,17 @@ a{
 
 #curtain{
     height:554px;
-    width: 440px;
+    width: 455px;
+    opacity: 0.8;
+    background-color: black;
 }
 
 h1{
     position: relative;
+    font-family: "Helvetica Neue", serif;
     top: 93px;
     left: 34px;
-
+    color: lightcyan;
 }
 
 h2{
@@ -54,6 +57,14 @@ h2{
     top: 87px;
     left: 310px;
     color: blue;
+}
+
+h2 a:visited{
+    color: blue;
+}
+
+h2 a:hover{
+    color: lightcyan;
 }
 
 .displayInline{
