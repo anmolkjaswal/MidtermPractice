@@ -70,3 +70,10 @@ h2 a:hover{
 .displayInline{
     display: inline;
 }
+
+#footer{
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
