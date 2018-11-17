@@ -1,5 +1,5 @@
 body{
-
+    font-family: Helvetica, serif;
 }
 
 a{
@@ -28,6 +28,32 @@ a{
     height: 200px;
     width: 600px;
     text-align: right;
+}
+
+#main{
+    background-image: url("../images/car.jpg");
+    background-size: cover;
+    height: 554px;
+    position: relative;
+}
+
+#curtain{
+    height:554px;
+    width: 440px;
+}
+
+h1{
+    position: relative;
+    top: 93px;
+    left: 34px;
+
+}
+
+h2{
+    position: relative;
+    top: 87px;
+    left: 310px;
+    color: blue;
 }
 
 .displayInline{
